@@ -3,10 +3,26 @@ body {
   color: white;
 }
 
-main {
-  padding-left: 90px;
-  padding-right: 90px;
+.container {
+  padding-left: 50px;
+  padding-right: 50px;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+}
+.img {
+	 width: 30%;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.left {
+	float: left;
+	clear: left;
+	/*margin-right: 10px;*/
+}
+.right {
+	float: right;
+	clear: right;
 }
