@@ -15,7 +15,7 @@ nav {
  }
 .menu {
   text-align: right;
-  padding-right: 20px;
+  padding-right: 30px;
   position: relative;
   bottom: 55px;
 }
@@ -25,4 +25,118 @@ li {
 }
 h2 {
   text-indent: 20px;
+}
+.toptext {
+  text-indent: 150px;
+  margin-top: 70px;
+}
+
+input[type=text] {
+    width: 50%;
+    float:left;
+    padding: 12px 10px;
+    margin: 5px 9;
+    margin-left: 150px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=button] {
+  /*float:left;*/
+  vertical-align: bottom;
+  background: url("../images/magnifying-glass.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  margin-left: 4px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: white;
+  background-size: 45px 45px;
+
+}
+.third li {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-top: 30px;
+  height: 45px;
+  padding: -15px;
+  color: black;
+
+}
+.third ul {
+  margin-left: 110px;
+
+}
+.thirda {
+  width: 50px;
+}
+.thirdb {
+  width: 120px;
+  text-align: center;
+}
+.fourth li {
+  display: inline-block;
+  /*border-radius: 4px;*/
+  /*border: 1px solid #ccc;*/
+  margin-top: 30px;
+  height: 45px;
+  padding: -15px;
+}
+.fourth ul {
+  margin-left: 100px;
+}
+
+.fourtha {
+  /*width: 50px;*/
+  color: black;
+}
+.fourthb {
+  color: blue;
+  text-align: center;
+}
+
+.fifth li {
+  display: inline-block;
+  /*border-radius: 4px;*/
+  /*border: 1px solid #ccc;*/
+  margin-top: -10px;
+  height: 45px;
+  padding: -15px;
+}
+.fifth ul {
+  margin-left: 100px;
+}
+
+.fiftha {
+  /*width: 50px;*/
+  color: black;
+}
+.fifthb {
+  color: blue;
+  text-align: center;
+}
+
+.sixth li {
+  display: inline-block;
+  /*border-radius: 4px;*/
+  /*border: 1px solid #ccc;*/
+  margin-top: -10px;
+  height: 45px;
+  padding: -15px;
+}
+.sixth ul {
+  margin-left: 100px;
+}
+
+.sixtha {
+  /*width: 50px;*/
+  color: black;
+}
+.sixthb {
+  color: blue;
+  text-align: center;
 }
